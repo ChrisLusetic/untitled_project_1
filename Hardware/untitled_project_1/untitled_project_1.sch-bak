@@ -45,10 +45,4 @@ U 5EF0FC75
 F0 "led_array" 50
 F1 "led_array.sch" 50
 $EndSheet
-$Sheet
-S 5600 2850 800  400 
-U 5F0553A4
-F0 "power" 50
-F1 "power.sch" 50
-$EndSheet
 $EndSCHEMATC

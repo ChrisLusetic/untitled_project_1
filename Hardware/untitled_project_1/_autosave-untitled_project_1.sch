@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L dk_RF-Transceiver-Modules:ESP32-WROOM-32 MOD?
+L dk_RF-Transceiver-Modules:ESP32-WROOM-32 MOD1
 U 1 1 5EF053D0
 P 2600 1600
-F 0 "MOD?" H 2800 1903 60  0000 C CNN
+F 0 "MOD1" H 2800 1903 60  0000 C CNN
 F 1 "ESP32-WROOM-32" H 2800 1797 60  0000 C CNN
 F 2 "digikey-footprints:ESP32-WROOM-32D" H 2800 1800 60  0001 L CNN
 F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf" H 2800 1900 60  0001 L CNN
