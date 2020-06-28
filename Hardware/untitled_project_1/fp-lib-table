@@ -1,3 +1,4 @@
 (fp_lib_table
+  (lib (name digikey-symbolsold)(type KiCad)(uri C:/Users/Chris/Documents/kicad_lib/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
   (lib (name digikey-symbols)(type KiCad)(uri C:/Users/Chris/Documents/kicad_lib/digikey-kicad-library/digikey-symbols)(options "")(descr ""))
 )
