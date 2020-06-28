@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 3 3
 Title ""
 Date ""
 Rev ""
@@ -631,9 +631,9 @@ Wire Wire Line
 	9100 5050 9100 4900
 Wire Wire Line
 	8800 5050 9100 5050
-Text GLabel 9650 4700 0    50   Output ~ 0
+Text GLabel 10450 4800 2    50   Output ~ 0
 RXD0
-Text GLabel 10450 4800 2    50   Input ~ 0
+Text GLabel 9650 4700 0    50   Input ~ 0
 TXD0
 Text GLabel 10450 4900 2    50   Output ~ 0
 RTS
@@ -761,4 +761,43 @@ Wire Notes Line
 	10900 3650 7500 3650
 Wire Notes Line
 	7500 3650 7500 6100
+$Comp
+L Connector:Barrel_Jack_MountingPin J?
+U 1 1 5F07EFAE
+P 2600 2200
+F 0 "J?" H 2657 2517 50  0000 C CNN
+F 1 "Barrel_Jack_MountingPin" H 2657 2426 50  0000 C CNN
+F 2 "" H 2650 2160 50  0001 C CNN
+F 3 "~" H 2650 2160 50  0001 C CNN
+	1    2600 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F081B0F
+P 2900 2500
+F 0 "#PWR?" H 2900 2250 50  0001 C CNN
+F 1 "GND" H 2905 2327 50  0000 C CNN
+F 2 "" H 2900 2500 50  0001 C CNN
+F 3 "" H 2900 2500 50  0001 C CNN
+	1    2900 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 2300 2900 2500
+$Comp
+L power:+5V #PWR?
+U 1 1 5F08A07D
+P 2900 1850
+F 0 "#PWR?" H 2900 1700 50  0001 C CNN
+F 1 "+5V" H 2915 2023 50  0000 C CNN
+F 2 "" H 2900 1850 50  0001 C CNN
+F 3 "" H 2900 1850 50  0001 C CNN
+	1    2900 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 2100 2900 1850
+Text Notes 600  1100 0    50   ~ 0
+TODO\nReverse polaritiy protection\nAutomatic PS switch *VUSB or DC jack +5V\n
 $EndSCHEMATC

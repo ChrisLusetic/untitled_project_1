@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 3
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -2737,7 +2737,7 @@ $EndComp
 Text GLabel 3150 1500 0    50   Input ~ 0
 data_in
 Text GLabel 1600 3700 0    50   Input ~ 0
-data_in
+WS2812b
 Wire Wire Line
 	3150 1500 3600 1500
 $Comp
